@@ -1,0 +1,364 @@
+/* All common css start  */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+    padding: 0;
+    margin: 0;
+    line-height: 0.8px;
+}
+
+/* All common css end  */
+
+
+/* header part start  */
+#headerpart {
+    padding: 10px 0;
+}
+
+.nav-link {
+
+    color: #000000;
+    padding: 0 35px !important;
+    font-size: 16px;
+    font-family: 500;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+
+.icons i {
+    padding: 0 15px;
+}
+
+/* header part end  */
+
+/* bannerf part start  */
+#bannerpart {
+    background: url(../images/baaner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 151px;
+    padding-bottom: 115px;
+
+}
+
+.bannercart {
+    padding: 65px 65px 40px 40px;
+    background: #FFF3E3;
+}
+
+.bannercart h4 {
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bannercart h1 {
+
+    font-size: 52px;
+    font-weight: 700;
+    color: #B88E2F;
+    line-height: 60px;
+    width: 454px;
+    height: 127px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.bannercart p {
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #161512;
+    line-height: 24px;
+    width: 487px;
+    height: 52px;
+
+}
+
+.bannercart a {
+
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #161512;
+    padding: 30px 65px;
+    background: #B88E2F;
+    color: white;
+
+}
+
+/* bannerf part end  */
+
+/* BrowseTheRange part start  */
+.texter {
+    padding: 20px 0;
+}
+
+
+.texter h3 {
+    font-size: 32px;
+    font-family: 700;
+    color: #333333;
+}
+
+.picters h3 {
+
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* BrowseTheRange part end  */
+
+/* .allpiture img{
+    width: 285px;
+    height: 301px;
+} */
+
+
+/* Our Products part start  */
+.divad h3 {
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.imgitem {
+    position: relative;
+}
+
+.bage {
+    width: 50px;
+    height: 50px;
+    background: #E97171;
+    border-radius: 50px;
+    right: 30px;
+    top: 30px;
+    position: absolute;
+}
+
+.bage2 {
+    width: 50px;
+    height: 50px;
+    background: #2EC1AC;
+    border-radius: 50px;
+    right: 30px;
+    top: 30px;
+    position: absolute;
+}
+
+.bage p {
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.bage:hover {
+    background: #2EC1AC;
+    color: white;
+}
+
+.bage2 p {
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.bage2:hover {
+    background: #E97171;
+    color: white;
+}
+
+.allpiture {
+    width: 285px;
+    height: 446px;
+    background: #F4F5F7;
+}
+/*  */
+
+.allpiture2 {
+    width: 285px;
+    height: 446px;
+    background: #F4F5F7;
+}
+.textarea {
+    padding: 15px 15px 25px 15px;
+}
+
+.textarea h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #3A3A3A;
+
+}
+
+.textarea h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #898989;
+
+}
+
+.textarea p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3A3A3A;
+
+}
+
+del {
+
+    font-size: 14px;
+    color: #898989;
+    padding: 0 7px;
+}
+
+
+.verly a {
+    padding: 10px 20px;
+    background: #f8eded;
+    color: #B88E2F;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-weight: 700
+}
+
+
+
+.iconses {
+    position: absolute;
+    top: 60%;
+    left: 10px;
+    transform: translate(-50%, );
+
+
+}
+
+.iconses i {
+
+    color: white;
+    font-size: 14px;
+    padding: 0 10px;
+
+
+}
+
+.imgitem {
+    position: relative;
+}
+/*  */
+.imgitem2 {
+    position: relative;
+}
+
+
+.verly {
+    width: 285px;
+    height: 446px;
+    background: rgba(0, 0, 0, 0.582);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .30s;
+
+
+}
+.verly a:hover{
+    background: #2EC1AC;
+    color: white;
+}
+.allpiture .verly:hover {
+    background: rgba(0, 0, 0, 0.582);
+    opacity: 1;
+
+
+}
+/*  */
+.verly2 a:hover{
+    background: #2EC1AC;
+    color: white;
+}
+.allpiture2 .verly2:hover {
+    background: transparent;
+    opacity: 1;
+
+
+}
+.verly2 {
+    width: 285px;
+    height: 446px;
+    background: rgba(0, 0, 0, 0.582);
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    transition: .30s;
+
+
+}
+.verly2 a {
+    padding: 10px 20px;
+    background: #f8eded;
+    color: #B88E2F;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-weight: 700
+}
+
+
+
+/* Our Products part start  */
+
+/* header part start  */
+/* header part start  */
+
+/* header part start  */
+/* header part start  */
+
+/* header part start  */
+/* header part start  */
+
+/* header part start  */
+/* header part start  */
+
+/* header part start  */
+/* header part start  */
+
+/* header part start  */
+/* header part start  */
+
+/* header part start  */
+/* header part start  */
