@@ -108,6 +108,11 @@ h1 h2 h3 h4 h5 h6 p {
 
 }
 
+.bannercart a:hover{
+    background: #2EC1AC;
+    color: #000000;
+}
+
 /* bannerf part end  */
 
 /* BrowseTheRange part start  */
@@ -200,6 +205,7 @@ h1 h2 h3 h4 h5 h6 p {
     height: 446px;
     background: #F4F5F7;
 }
+
 /*  */
 
 .allpiture2 {
@@ -207,6 +213,7 @@ h1 h2 h3 h4 h5 h6 p {
     height: 446px;
     background: #F4F5F7;
 }
+
 .textarea {
     padding: 15px 15px 25px 15px;
 }
@@ -275,6 +282,7 @@ del {
 .imgitem {
     position: relative;
 }
+
 /*  */
 .imgitem2 {
     position: relative;
@@ -293,27 +301,32 @@ del {
 
 
 }
-.verly a:hover{
+
+.verly a:hover {
     background: #2EC1AC;
     color: white;
 }
+
 .allpiture .verly:hover {
     background: rgba(0, 0, 0, 0.582);
     opacity: 1;
 
 
 }
+
 /*  */
-.verly2 a:hover{
+.verly2 a:hover {
     background: #2EC1AC;
     color: white;
 }
+
 .allpiture2 .verly2:hover {
     background: transparent;
     opacity: 1;
 
 
 }
+
 .verly2 {
     width: 285px;
     height: 446px;
@@ -321,11 +334,11 @@ del {
     position: absolute;
     top: 0;
     left: 0;
-  
     transition: .30s;
 
 
 }
+
 .verly2 a {
     padding: 10px 20px;
     background: #f8eded;
@@ -338,12 +351,105 @@ del {
     font-weight: 700
 }
 
+.showmore {
+    padding: 25px 25px 84px 84px;
+}
+
+.showmore a {
+    padding: 10px 40px;
+    border: 1px solid #B88E2F;
+    color: #B88E2F;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.showmore a:hover {
+    background: #2EC1AC;
+    color: white;
+}
 
 
-/* Our Products part start  */
+/* Our Products part end */
 
-/* header part start  */
-/* header part start  */
+/* Funiro part start  */
+.footertext h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.footertext p {
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 64px;
+    width: 185px;
+    height: 72px;
+}
+
+.tester {
+    padding-top: 5px;
+}
+
+.footertext ul li a {
+    display: block;
+    padding: 10px 0;
+}
+
+.hometer {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hometer2 {
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.jamela {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.sesmes{
+  
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.hometer3 {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.hometer3::before {
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    content: "";
+    position: absolute;
+    bottom: 0;
+}
+
+
+.jamela .sesmes::before {
+    width: 100%;
+    height: 3px;
+    background: #000000;
+    content: "";
+    position: absolute;
+    bottom: 0px;
+}
+
+/* Funiro part end  */
 
 /* header part start  */
 /* header part start  */
